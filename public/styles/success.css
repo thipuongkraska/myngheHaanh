@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    font-family: 'Commissioner', sans-serif;
+}
+
+h1 {
+    margin-top: 150px;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+button {
+    width: 15%;
+    padding: 10px;
+    display: inline-block;
+    background-color: #fff5ea;
+    border-style: none;
+    border-radius: 3px;
+    margin: 10px;
+    -webkit-box-shadow: 0px 0px 8px 1px #AC7FA1; 
+    box-shadow: 0px 0px 8px 1px #AC7FA1;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-position: under;
+}

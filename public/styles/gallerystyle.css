@@ -1,0 +1,77 @@
+#myBtnContainer {
+      margin: 0;
+      padding: 20px 57px 0px 57px ;
+  }
+  /* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  /* Add a grey background color on mouse-over */
+.btn:hover {
+    background-color: #ddd;
+  }
+  
+  /* Add a dark background color to the active button */
+.btn.active {
+    background-color: rgb(24, 7, 7);
+     color: white;
+  }
+  /*-------------------------------------------------------------------------------*/
+#bodypart {
+      background-color: #bedbbb;
+    /* background: rgba(165, 165, 165, 0.1); */
+  }
+  .grid {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+ 
+  .row {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    padding: 20px 10px 10px 10px;  
+  }
+  .column {
+    width: 90%;
+    text-align: center;
+    padding: 5px;
+  }
+  .img {
+    width: 26vw;
+    height: 20vw;
+}
+
+  /* Content */
+  .content {
+    color: #290001;
+    margin: 0px;
+    background-color:whitesmoke;
+    padding: 10px;
+    border-radius: 3px;
+  }
+  .content p {
+      color: #290001;
+    }
+/**------------------GALLERY EFFECT--------------------------------------------------------*/
+  #hide {
+    display: none !important;
+  }
+  #show {
+    display: block !important;
+  }
+ .shopdogo {
+   display: none;
+ }
+ .shopnoithat {
+   display: none;
+ }
+.shoptieucanh {
+  display: none;
+}

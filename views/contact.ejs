@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Hệ</title>
+    <link rel="stylesheet" href="../styles/admin.css">
+</head>
+<body>
+    <div class="form client" id="show">
+    <form action="mailto:christianpham.vidpb@gmail.com" method="post" enctype="text/plain">
+        <h3>Xin quý khách vui lòng để lại thông tin liên hệ và vấn đề quý khách quan tâm</h3>
+        <label>Tên của quý khách</label><br>
+        <input type="text" name="Tên của tôi"><br><br>
+        <label for="">Số điện thoại</label><br>
+        <input type="number" name="Số điện thoại của tôi"><br><br>
+        <label>Lời nhắn của quý khách</label><br>
+        <textarea name="Câu hỏi của tôi" cols="30" rows="10"></textarea><br><br>
+        <input type="submit" value="Gửi" onclick="sendmail()">
+    </form>
+    </div>
+    <div class="form success">
+        <h3>Quy khach da gui thanh cong!</h3>
+        <button><a href="/">Quay lai trang chu</a></button>
+    </div>
+    <script>
+        function sendmail() {
+            const formArea = document.querySelector(".client");
+            const success = document.querySelector(".success")
+            formArea.id="hide";
+            success.id="show";
+        }
+    </script>
+</body>
+</html>

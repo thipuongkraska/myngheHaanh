@@ -1,0 +1,352 @@
+html, body {
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+}
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+h2 {
+    margin: 0;
+    padding: 40px 57px 20px 57px ;
+    color: white;
+    letter-spacing: 0.1em;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+/*NAVBAR */
+.heading {
+    z-index: 5;
+    
+}
+
+.logo {
+    position: absolute;
+    left: 5vw;
+    height: 13vw;
+    margin-top: 0px;
+    float: left;
+    z-index: 1000;
+}
+.navbar {
+    width: 55vw;
+    position:absolute;
+    display: flex;
+    right: 0px;
+    height: 60px;
+    z-index: 10000;
+    
+}
+#home {
+    font-weight: bold;
+    text-decoration: underline !important;
+    text-underline-position: under !important;
+}
+.navbar-content {
+    float: right;
+    color: white;
+    margin-top: 12px;
+    padding: 20px 30px 30px 20px;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: lighter;
+    border-radius: 5px;
+    font-size: 85%;
+}
+
+a {
+    text-decoration: none !important;
+}
+.navbar-content:hover {
+    background-color: #388B64;
+}
+#btn {
+    background-color: #00553D !important;
+    color:white !important;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 10.5px;
+    text-align: center;
+    width: 150px;
+    font-family: 'Commissioner', sans-serif;
+    border-radius: 5px;
+}
+
+.drop-content {
+    display: none;
+    
+}
+.drop-content a {
+    color: white;
+}
+.drop-content button {
+    background-color:  #00553D;
+    width: 4rem;
+    color: white;
+}
+.dropbar-content {
+    font-family: 'Commissioner', sans-serif;
+    font-weight: lighter;
+    padding: 15px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.dropbar-content:hover {
+    font-weight: bold;
+}
+
+#hide {
+    display: none;
+}
+#show {
+    display: block;
+}
+
+.drop-bar {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 3.5vw;
+    text-align: right;
+    padding: 1vw;
+    border-radius: 5px;
+    z-index: 10000000;
+}
+#grey {
+    background-color: #19273F;
+}
+#no-color {
+    background-color:none;
+}
+.drop {
+    width: 8vw;
+    height: 4vw;
+    margin:0;
+}
+
+/*BACKGROUND AND INTRO*/
+.fullscreen-bg {
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.fullscreen-bg_video {
+    width: 100vw;;
+    height:auto;
+    filter: brightness(50%);
+}
+
+.introduction {
+    text-align: right;
+    position: absolute;
+    top: 10vw;
+    left: 40vw;
+    margin-top: 100px;
+    margin-right: 57px;
+    z-index: 1000;
+}
+
+.title {
+    font-size: 3rem;
+    color: white;
+    line-height: 1;
+    font-weight: bold;
+    font-family: 'GFS Didot', serif !important;
+    
+}
+#brandname {
+    color:white;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: lighter;
+}
+hr {
+    border-style: solid;
+    padding:1px;
+    margin-bottom: 57px;
+    background-color: white;
+    border-color: white;
+}
+
+#l-btn {
+    background-color: #00553D !important;
+    color:white !important;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 15px;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    font-family: 'Commissioner', sans-serif;
+    font-size: 1.5rem;
+    border-radius: 6px;
+}
+
+/*ABOUT-US*/
+.square {
+    text-align: center;
+    padding:100px;
+    margin: 0;
+    width: 82vw;
+    /*background-image: url("https://www.alingsashuspaket.se/wp-content/uploads/2019/10/ladstil_svartvit.jpg");*/
+
+
+}
+.square #about-img { 
+    width: 40%;
+    float: left;  
+    margin: 45px 25px 0px 50px; 
+    padding:20px;
+
+} 
+.square #about-info {
+    -webkit-box-shadow: 0px 6px 80px -8px rgba(26,66,11,0.32);
+-moz-box-shadow: 0px 6px 80px -8px rgba(26,66,11,0.32);
+box-shadow: 0px 6px 80px -8px rgba(26,66,11,0.32);
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-weight: 100;
+    font-size: 1.2rem;
+    background-color:white;
+    text-align: justify;  
+    padding: 30px 70px 30px 70px;
+
+} 
+
+#about-info h2 {
+    color: #290001;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+#about-info p {
+    color: #290001;
+}
+.bold {
+    font-weight: bold !important; 
+}
+
+
+/*FOOTER*/
+
+.footer {
+    position: relative;
+    background-color: #000005;
+}
+.footer .footer-1 {
+    padding: 5px 57px 5px 57px;
+    width: 20%;
+}
+.footer .footer-2 {
+    position: absolute;
+    bottom: 5px;
+    left: 40%;
+    padding : 15px;
+}
+.footer-1 p {
+    color:white;
+    padding: 0;
+}
+.social-icon {
+    width: 50px;
+    padding: 8px;
+}
+
+/*RESPONSIVE-------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 992px) {
+    .drop-bar {
+        display:none !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .navbar {
+        display: none !important;
+    }
+    .title {
+      font-size: 2rem !important;
+  }
+  #brandname {
+      font-size: 1rem !important;
+  }
+  .introduction {
+      margin-top: 60px !important;
+  }
+  .row {
+      width: 49% !important;
+  }
+  .column {
+      width: 100% !important;
+  }
+  .img {
+      width: 100% !important;
+  }
+  #about-info {
+      width: 100%;
+      font-size: 90% !important;
+  }
+  .square {
+      padding: 0 !important;
+      margin: 0 !important;
+  }
+  .footer-1 p {
+      font-size: 80% !important;
+  }
+  .footer-1 {
+      width: 50% !important;
+      padding: 10px !important;
+  }
+  .footer-2 {
+      left: 84% !important;
+      padding: 5px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .navbar {
+      display: none !important;
+  }
+  .title {
+      font-size: 1rem !important;
+  }
+  #brandname {
+      font-size: 0.5rem !important;
+  }
+  .introduction {
+      margin-top: 50px !important;
+  }
+  .row {
+      width: 100% !important;
+  }
+  .column {
+      width: 98% !important;
+  }
+  .img {
+      width: 100% !important;
+      height: 100% !important;
+  }
+  #about-info {
+      width: 100%;
+      font-size: 90% !important;
+  }
+  .square {
+      padding: 0 !important;
+      margin: 0 !important;
+  }
+  .footer-1 p {
+      font-size: 80% !important;
+  }
+  .footer-1 {
+      display: none !important;
+  }
+  .footer-2 {
+      padding: 5px !important;
+      display: block !important;
+      position: relative !important;
+  }
+}
+
+
+
+
